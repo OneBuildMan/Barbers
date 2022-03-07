@@ -1,2 +1,2 @@
 # Barbers
-People can make online appoiments to barbers
+People can make online appointments to barbers
