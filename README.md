@@ -19,3 +19,7 @@ The tools presented will be coupled with both javascript and typescript.
 
 Database: MySQL/PostgreSQL
 
+#Layout
+
+https://wireframe.cc/pro/pp/13897f019527356
+
