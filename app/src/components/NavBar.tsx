@@ -9,7 +9,7 @@ import FullScreenMenu from "./Menu";
 
 const useStyles = makeStyles({
   appbar: {
-    backgroundColor: '#2B2C28 !important'
+    backgroundColor: '#2B2C28 !important',
   },
   logo: {
     width: "100px",
