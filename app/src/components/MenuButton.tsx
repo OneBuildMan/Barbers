@@ -7,6 +7,7 @@ const useStyles = makeStyles({
     margin: 15,
     width: 300,
     height: 45,
+    fontFamily: "Playfair",
   },
 });
 
