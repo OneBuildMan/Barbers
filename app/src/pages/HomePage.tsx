@@ -54,7 +54,7 @@ const useStyles = makeStyles({
   }
 });
 
-function HomePage() {
+const HomePage = () => {
   const styles = useStyles();
 
   return (

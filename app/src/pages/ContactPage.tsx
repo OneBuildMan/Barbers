@@ -36,7 +36,7 @@ const useStyles = makeStyles({
   },
 });
 
-function ContactPage() {
+const ContactPage = () => {
   const styles = useStyles();
 
   return (
