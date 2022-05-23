@@ -6,6 +6,8 @@ import ContactPage from "../pages/ContactPage";
 import BarbersPage from "../pages/Barbers";
 import ReservationPage from "../pages/Reservation";
 import RegistrationPage from "../pages/BarberRegistration";
+import RegisterPage from "../pages/RegisterPage";
+import LoginPage from "../pages/LoginPage";
 
 const useStyles = makeStyles({
   container: {
@@ -27,6 +29,8 @@ const Router = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/reservation" element={<ReservationPage />} />
+            <Route path="/register" element={<RegisterPage />} />
+            <Route path="/login" element={<LoginPage />}/>
             <Route path="/barbers" element={<BarbersPage />} />
             <Route path="/barber-registration" element={<RegistrationPage />} />
           </Routes>
