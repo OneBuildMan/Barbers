@@ -4,10 +4,13 @@ import mongoose from 'mongoose';
 import morgan from 'morgan';
 import cors from 'cors';
 import * as bodyParser from 'body-parser';
+import dotenv from 'dotenv'
 
 const app: Application = express();
 
 const NAMESPACE : string = 'Server';
+dotenv.config();
+
 
 //Connect to DB
 mongoose.connect(config.mongo.url,config.mongo.options , () => {
